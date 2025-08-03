@@ -1,6 +1,6 @@
 # Basic Calculator Program
 
-# Get user input
+# To get user input
 num1 = int(input("Enter the first number: "))
 num2 = int(input("Enter the second number: "))
 operation = input("Enter an operation (+, -, *, /): ")
@@ -19,3 +19,4 @@ elif operation == '/':
         print("Error: Cannot divide by zero.")
 else:
     print("Invalid operation.")
+
